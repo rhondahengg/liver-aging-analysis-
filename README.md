@@ -24,3 +24,6 @@ This project aims to answer the following biological questions:
    differential expression analysis was performed between: peds vs adults
 4. Functional and Pathway Enrichment Analysis\
    Gene set enrichment analysis (GSEA) and enrichment testing were performed using GSEApy with: Reactome pathways, KEGG pathways, MSigDB      Hallmark pathways, Gene Ontology Biological Processes
+
+### note
+liver.py is supposed to be in a jupyter notebook format to be able to load the results and graphs/tables but github says there is an error in .ipynb format 
