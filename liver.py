@@ -108,7 +108,7 @@ de["FDR"] = sm.stats.multipletests(de["pval"], method="fdr_bh")[1]
 de = de.sort_values("pval")
 de.head()
 
-de.to_csv(("output"))
+de.to_csv(("output.csv"))
 print(de[5:])
 print(de[:-5])
 
